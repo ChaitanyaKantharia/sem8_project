@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+       <meta charset="utf-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1"/>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+              <title>MP</title>
+                    <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700%7CSource+Sans+Pro:300,400,600,700" rel="stylesheet"/>
+      <!-- stylesheet -->
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style_cyan.css" title="style_cyan" rel="alternate stylesheet" type="text/css"/>
+      <link href="css/style_red.css" title="style_red" rel="alternate stylesheet" type="text/css"/>
+      <link href="css/style_green.css" title="style_green" rel="alternate stylesheet" type="text/css"/>
+      <link href="css/style_blue.css" title="style_blue" rel="alternate stylesheet" type="text/css"/>
+      <!-- font-awesome -->
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <!-- crousel css -->
+      <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+      <!--bootstrap select-->
+      <link href="js/dist/css/bootstrap-select.css" rel="stylesheet" type="text/css" />  
+      
+      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+<!--<div class="container">-->
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+<!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+
+<!--   Modal 
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+       Modal content
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">x</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>-->
+        
+<a href="javascript: void(0)"><button class="btn btn-primary pull-right" id="btn">Read More</button></a>
+
+        <div class="modal fade" id="modelWindow" role="dialog">
+            <div class="modal-dialog modal-sm vertical-align-center">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">x</button>
+                  <h4 class="modal-title">Heading</h4>
+                </div>
+                <div class="modal-body">
+                    Body text here
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+<script>
+    $('#btn').click(function() {
+   $('#modelWindow').modal('show');
+});
+    </script>
+<!-- <script src="js/jquery.2.1.1.min.js"></script>
+       bootstrap js 
+      <script src="bootstrap/js/bootstrap.min.js"></script>-->
+      <!--bootstrap select-->
+      <script src="js/dist/js/bootstrap-select.js"></script>
+      <!-- owlcarousel js -->
+      <script src="js/owl-carousel/owl.carousel.min.js"></script>
+      <!--internal js-->
+      <script src="js/internal.js"></script>
+      <!-- color switcher-->
+      <script src="js/switcher.js"></script>
+<!--        <script>
+         $(document).ready(function () {
+            $('#dialog').dialog({
+                autoOpen: false
+            })
+            $('#btn').click(function() {
+            $("#dialog").dialog({
+                modal: true,
+                height: 600,
+                width: 500,
+
+            buttons: {
+            Accept: function() {
+                $(this).dialog("close");
+                }
+               }
+            });
+            $('#dialog').dialog('open');
+            });
+         });
+       </script>-->
+    </body>
+</html>
+
